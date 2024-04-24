@@ -1,0 +1,14 @@
+
+.titulo{
+    text-align: center
+}
+.mititulo{
+    justify-content: flex-end;
+    color: #166542;
+}
+
+.logo{
+    display: flex;
+    left: 30%;
+    width: 30%;
+}
