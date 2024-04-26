@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGRO SANTA ISABEL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/product.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Archivo JS con características mínimas para trabajar con Materialize -->
+     <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="materialize-v1.0.0/materialize/js/materialize.js"></script>    
+    <script type="text/javascript" src="js/products.js"></script>   
+    <nav class="navbar ">
+        <div class="container col-12">
+            <div class="titulo " id="navbarNavAltMarkup">
+                <div class="navbar col 12 titulo">
+                    <a href="index.html" class="logo" >
+                        <img class="milogo" src="images/logo.jpeg" >
+                    </a>
+                    <h1 class="mititulo">AGRO SANTA ISABEL</h1>
+                </div>
+            </div>
+            <div class="row btns">
+                <a  href="#form" class="recordar">
+                    <img src="images/user.png" alt="">
+                </a>
+            </div>
+            <div class="row btns">
+                <a  href="" class="recordar">
+                    <img src="images/carrito.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="pages col-12">
+            <ul class="list">
+                <li class="nav">
+                    <a class="nav-link" href="index.html">INICIO</a>
+                </li>
+                <li class="nav">
+                    <a class="nav-link" href="products.html" >
+                        PRODUCTOS
+                    </a>
+                </li>
+                <li class="nav">
+                    <a class="nav-link" href="contactUs.html">
+                        CONTACTENOS
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+    </nav>
+    <div class="container-products">
+        <h2 class="titulo-productos">GALERIA DE PRODUCTOS</h2>
+        <div class="container-card-products">
+            <div class="card col-3" style="width: 14rem;">
+                <img src="images/naranja.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Naranja</p>
+                    
+                    <button id='aumentar' onclick="aumentar()">+</button>
+                    <input type='text' id="cantidad" class="valor"value="1">
+                    <button id='disminuir' onclick="disminuir()">-</button>
+                    <div class="row">
+                        <div class="mb-3 col s12 btn">
+                            
+                            <button type="submit" class="btn btn-success">
+                                <img src="images/carrito.png" style="width:30px;">
+                                AGREGAR
+                            </button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="card col-3" style="width: 14rem;">
+                <img src="images/manzana.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Manzana</p>
+                    <button id='aumentar' onclick="aumentar()">+</button>
+                    <input type='text' id="cantidad" class="valor"value="1">
+                    <button id='disminuir' onclick="disminuir()">-</button>
+                    <div class="row">
+                        <div class="mb-3 col s12 btn">
+                            <button type="submit" class="btn btn-success">
+                                <img src="images/carrito.png" style="width:30px;">
+                                AGREGAR
+                            </button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="card col-3" style="width: 14rem;">
+                <img src="images/pera.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Pera</p>
+                    <button id='aumentar' onclick="aumentar()">+</button>
+                    <input type='text' id="cantidad" class="valor"value="1">
+                    <button id='disminuir' onclick="disminuir()">-</button>
+                    <div class="row">
+                        <div class="mb-3 col s12 btn">
+                            <button type="submit" class="btn btn-success">
+                                <img src="images/carrito.png" style="width:30px;">
+                                AGREGAR
+                            </button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="card col-3" style="width: 14rem;">
+                <img src="images/banano.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Banano</p>
+                    <button id='aumentar' onclick="aumentar()">+</button>
+                    <input type='text' id="cantidad" class="valor"value="1">
+                    <button id='disminuir' onclick="disminuir()">-</button>
+                    <div class="row">
+                        <div class="mb-3 col s12 btn">
+                            <button type="submit" class="btn btn-success">
+                                <img src="images/carrito.png" style="width:30px;">
+                                AGREGAR
+                            </button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="container-card-products">
+            <div class="card col-3" style="width: 14rem;">
+                <img src="images/criolla.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Papa</p>
+                    
+                    <button id='aumentar' onclick="aumentar()">+</button>
+                    <input type='text' id="cantidad" class="valor"value="1">
+                    <button id='disminuir' onclick="disminuir()">-</button>
+                    <div class="row">
+                        <div class="mb-3 col s12 btn">
+                            
+                            <button type="submit" class="btn btn-success">
+                                <img src="images/carrito.png" style="width:30px;">
+                                AGREGAR
+                            </button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="card col-3" style="width: 14rem;">
+                <img src="images/platano.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Plátano</p>
+                    <button id='aumentar' onclick="aumentar()">+</button>
+                    <input type='text' id="cantidad" class="valor"value="1">
+                    <button id='disminuir' onclick="disminuir()">-</button>
+                    <div class="row">
+                        <div class="mb-3 col s12 btn">
+                            <button type="submit" class="btn btn-success">
+                                <img src="images/carrito.png" style="width:30px;">
+                                AGREGAR
+                            </button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="card col-3" style="width: 14rem;">
+                <img src="images/zanahoria.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Zanahoria</p>
+                    <button id='aumentar' onclick="aumentar()">+</button>
+                    <input type='text' id="cantidad" class="valor"value="1">
+                    <button id='disminuir' onclick="disminuir()">-</button>
+                    <div class="row">
+                        <div class="mb-3 col s12 btn">
+                            <button type="submit" class="btn btn-success">
+                                <img src="images/carrito.png" style="width:30px;">
+                                AGREGAR
+                            </button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="card col-3" style="width: 14rem;">
+                <img src="images/cabezona.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Cebolla</p>
+                    <button id='aumentar' onclick="aumentar()">+</button>
+                    <input type='text' id="cantidad" class="valor"value="1">
+                    <button id='disminuir' onclick="disminuir()">-</button>
+                    <div class="row">
+                        <div class="mb-3 col s12 btn">
+                            <button type="submit" class="btn btn-success">
+                                <img src="images/carrito.png" style="width:30px;">
+                                AGREGAR
+                            </button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="container-card-products">
+            <div class="card col-3" style="width: 14rem;">
+                <img src="images/tomate.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Tomate chonto</p>
+                    
+                    <button id='aumentar' onclick="aumentar()">+</button>
+                    <input type='text' id="cantidad" class="valor"value="1">
+                    <button id='disminuir' onclick="disminuir()">-</button>
+                    <div class="row">
+                        <div class="mb-3 col s12 btn">
+                            
+                            <button type="submit" class="btn btn-success">
+                                <img src="images/carrito.png" style="width:30px;">
+                                AGREGAR
+                            </button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="card col-3" style="width: 14rem;">
+                <img src="images/yuca.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Yuca</p>
+                    <button id='aumentar' onclick="aumentar()">+</button>
+                    <input type='text' id="cantidad" class="valor"value="1">
+                    <button id='disminuir' onclick="disminuir()">-</button>
+                    <div class="row">
+                        <div class="mb-3 col s12 btn">
+                            <button type="submit" class="btn btn-success">
+                                <img src="images/carrito.png" style="width:30px;">
+                                AGREGAR
+                            </button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="card col-3" style="width: 14rem;">
+                <img src="images/cilantro.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Cilantro</p>
+                    <button id='aumentar' onclick="aumentar()">+</button>
+                    <input type='text' id="cantidad" class="valor"value="1">
+                    <button id='disminuir' onclick="disminuir()">-</button>
+                    <div class="row">
+                        <div class="mb-3 col s12 btn">
+                            <button type="submit" class="btn btn-success">
+                                <img src="images/carrito.png" style="width:30px;">
+                                AGREGAR
+                            </button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="card col-3" style="width: 14rem;">
+                <img src="images/apio.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Apio</p>
+                    <button id='aumentar' onclick="aumentar()">+</button>
+                    <input type='text' id="cantidad" class="valor"value="1">
+                    <button id='disminuir' onclick="disminuir()">-</button>
+                    <div class="row">
+                        <div class="mb-3 col s12 btn">
+                            <button type="submit" class="btn btn-success">
+                                <img src="images/carrito.png" style="width:30px;">
+                                AGREGAR
+                            </button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            
+        </div>
+        <div class="row carrito">
+            <div class="mb-3 col s12 btn carrito">
+                <button type="submit" class="btn btn-success">
+                    VER
+                    <img src="images/carrito.png" style="width:30px;">
+                </button>
+            </div>
+        </div> 
+    </div>
+
+
+</body>
+</html>

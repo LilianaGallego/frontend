@@ -1,6 +1,5 @@
 body{
  background-color: #b8d5d6;
- opacity: 0.9;
 }
 .navbar{
     background-color: #24ef43;
@@ -38,14 +37,14 @@ body{
     color: #364490;
     font-family: "Kalam", cursive;
     font-weight: bold;
+    font-size: 25px;
 }
 
 .slide {
-    position: absolute;
     margin-top: 26px;
     justify-content: center;
     display: block;
-    margin-left: 450px;
+    margin-left: 400px;
 }
 .slide-inner {
     position: relative;
@@ -65,8 +64,8 @@ body{
 }
 .slide-item img {
     display: block;
-    height: 300px;
-    width:500px;
+    height: 400px;
+    width:600px;
 }
 .slide-control {
     background: rgba(0, 0, 0, 0.28);
@@ -148,3 +147,95 @@ body{
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), 
          -1px 0px 2px rgba(255, 255, 255, 0);
 }
+
+.card{
+    
+    margin-left: 70px;
+    background-color: #8bc34a;
+    padding-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.card-body{
+    background-color: #b4c9b7;
+    margin-top: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-img-top{
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.card-text{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'pacifico';
+    color:#186006;
+}
+
+.container-card, .container-card-register{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 90px;
+    margin-right: 50px;
+}
+
+.card-register{
+    margin-top: 10px;
+    background: linear-gradient(to bottom right,#8bc34a,#f0f0f0);
+    margin-left: 50px;
+    display: block;
+    margin-right: 50px;
+    border: #186006 solid 5px;
+}
+
+.campos{
+    margin-left: 20px;
+    margin-top: 10px;
+    display: block;
+}
+
+.register{
+    margin-right: 100px;
+    margin-top: 10px;
+    
+}
+
+.container-card-register{
+    margin-right: 220px;
+    
+}
+
+.direccion{
+    width: 360px;
+    display: inline;
+}
+
+.btn{
+    justify-content: center;
+}
+
+.title-register{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.recordar{
+    text-align: center;
+    color: #030303;
+    text-decoration: none;
+    margin-top: 10px;
+    
+}
+
+.user{
+    font-size: 40px;
+}
+
+

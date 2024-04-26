@@ -1,0 +1,44 @@
+.titulo-contacto{
+    font-family: 'Lobster';
+    color: #186006;
+    font-size: 29px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.parrafo{
+    font-family: 'Kalam';
+    font-size: 20px;
+    color: #186006;
+    margin-left: 140px;
+}
+
+.contact{
+    display: flex;
+}
+
+.container-card, .container-card-contact{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 90px;
+    margin-right: 50px;
+}
+.card-contact{
+    margin-left: 50px;
+    display: block;
+    margin-right: 50px;
+}
+.card-register{
+    border:solid 0px;
+    background: none;
+}
+
+.container-card-contact{
+    margin-right: 220px;
+    
+}
+
+.enviar{
+    margin-top: 50px;
+    justify-content: center;
+}

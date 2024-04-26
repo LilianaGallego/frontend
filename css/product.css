@@ -1,0 +1,53 @@
+.titulo-productos{
+    font-family: 'Lobster';
+    color: #186006;
+    font-size: 35px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.container-card-products{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.card-img-top{
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.cantidad{
+    display: flex;
+    width: 30px;
+}
+
+.valor{
+    display: inline;
+    width: 80px;
+    text-align: center;
+}
+
+#disminuir, #aumentar{
+    width: 50px;
+}
+.card-body{
+    height: 155px;
+    margin-top: 2px;
+}
+
+.carrito{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 50px;
+    justify-content: center;
+    display: block;
+    align-items: center;
+}
+.container, .pages{
+    justify-content: center;
+    display: block;
+}
