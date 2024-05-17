@@ -1,0 +1,79 @@
+.titulo-usuarios{
+    font-family: 'Lobster';
+    color: #186006;
+    font-size: 35px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+thead, th{
+    font-family: 'Lobster';
+    color: #47a330;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+.table-bordered{
+    text-align: center;
+    border-radius: 10px;
+    border-bottom: 10px;
+}
+
+tr{
+    background-color: #47a330;
+    color: #804597;
+    font-family: 'Lobster';
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.admin-users{
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #24ef43;
+    margin-top: 50px;
+}
+
+#update-user-form, #create-user-form{
+    width: 400px;
+    font-family: 'Lobster';
+    font-size: 10px;
+    color: #186006;
+    
+}
+.update-user, .create-user{
+    justify-content: center;
+    display: block;
+}
+
+.register{
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.card-register{
+    margin-top: 10px;
+    background: linear-gradient(to bottom right,#8bc34a,#f0f0f0);
+    margin-left: 50px;
+    display: block;
+    margin-right: 50px;
+    border: #186006 solid 5px;
+}
+
+.title-register{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.campos{
+    margin-left: 20px;
+    margin-top: 10px;
+    display: block;
+}
